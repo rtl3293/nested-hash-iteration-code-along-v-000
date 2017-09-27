@@ -21,4 +21,9 @@ def remove_strawberry(contacts)
         value.each do |flavor|
           if flavor == 'strawberry'
             flavor.remove('strawberry')
+          end
+        end
+      end
+    end
+  end
 end
